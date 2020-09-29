@@ -1,0 +1,709 @@
+@media only screen and (max-width: 1660px) {
+    .boxes-hover .item:nth-child(3n) .item_absolute {
+        left: -65px;
+    }
+    .boxes-hover .item:nth-child(3n) .item_absolute:after {
+        left: 85%;
+    }
+} 
+@media only screen and (max-width: 1400px) {
+    .logo img {
+        width: 200px;
+    }
+    .middle_links ul li {
+        padding: 0px 5px;
+    }
+    .middle_links ul li a {
+        font-size: 14px;
+    }
+    .header_top .account .user_name_holder {
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+    .user-log img {
+        width: 60px;
+    }
+    .input_search {
+        height: 120px;
+    }
+    .tabs-sidebar {
+        width: 74.5%;
+        height: auto;
+    }
+    .boxes-hover {
+        width: 25%;
+    }
+    .tabs-sidebar .main_news {
+        width: 60%;
+    }
+    #big .item .news-text .short_heading p {
+        font-size: 24px;
+        width: 100%;
+    }
+    .tabs-sidebar .sidebar_news {
+        width: 40%;
+        padding: 20px 10px;
+    }
+    #second .human_res, 
+    #second .pohvali_kolegu {
+        width: 33.45%;
+    }
+    #second .dogadjaji {
+        width: 32%;
+    }
+    #second .human li .human_txt {
+        width: 85%;
+    }
+    #second .human li .human_img {
+        width: 15%;
+    }
+} 
+@media only screen and (max-width: 1200px) {
+    .logo img {
+        width: 170px;
+    }
+    .input_search input {
+        height: 40px;
+    }
+    #second .human_res, 
+    #second .pohvali_kolegu,
+    #second .dogadjaji {
+        width: 100%;
+        margin-right: 0px;
+        margin-bottom: 15px;
+    }
+    #second .dogadjaji {
+        margin-bottom: 0px;
+    }
+    #second .human_res ul.human {
+        width: 60%;
+    }
+    #second .dogadjaji ul.dogadjaj {
+        width: 60%;
+    }
+    #second .dogadjaji ul.dogadjaj .human_img.dogadjaj {
+        text-align: center;
+    }
+    #third .pohvali_kolegu,
+    #third .human_res.info {
+        width: 33.45%;
+        padding: 10px;
+    }
+    #third .oglasi {
+        width: 32%;
+        padding: 10px;
+    }
+    .header_top .account i,
+    .header_top .account .user_name_holder {
+        display: none;
+    }
+    .tabs-sidebar {
+        width: 65.5%;
+    }
+    .boxes-hover {
+        width: 34%;
+        padding: 20px 10px;
+    }
+    #big .item .news-text {
+        position: absolute;
+        bottom: 30px;
+        left: 5px;
+    }
+    #big .item .news-text .short_heading p {
+        font-size: 22px;
+        line-height: 25px;
+    }
+    .tabs-sidebar .sidebar_news {
+        padding: 10px 5px;
+    }
+    #thumbs .owl-item.active-1 {
+        padding: 5px;
+    }
+    .tabs-sidebar .sidebar_news .item img {
+        width: 70px;
+        height: 70px;
+    }
+    .tabs-sidebar .sidebar_news .item p {
+        line-height: 16px;
+    }
+    .sidebar_news .sve_vesti {
+        margin-top: auto;
+    }
+    #four .foto_dana {
+        width: 40%;
+    }
+    #four .drustvene-mreze {
+        width: 30%;
+        padding: 20px;
+    }
+    #four .anketa {
+        width: 29%;
+        padding: 20px;
+    }
+    #four .foto_dana .num_likes {
+        top: 15px;
+    }
+    #four .foto_dana .links_bottom_foto ul {
+        flex-direction: column;
+        width: 100%;
+    }
+    #four .foto_dana .links_bottom_foto li:first-of-type {
+        border-bottom-left-radius: 0px;
+        width: 100%;
+    }
+    #four .foto_dana .links_bottom_foto li {
+        width: 100%;
+    }
+    #kolaboracija.owl-carousel .owl-item img {
+        width: auto;
+    }
+}
+@media only screen and (max-width: 992px) {
+    .logo img {
+        width: 95px;
+    }
+    .user-log img {
+        width: 35px;
+    }
+    .middle_links ul li {
+        padding: 0px 5px;
+    }
+    .middle_links ul li a {
+        font-size: 12px;
+    }
+    #modal_prijavi_ideju .ideja_form_holder,
+    #modal_pohvali_kolegu .ideja_form_holder,
+    .person-pop .person-pop-holder,
+    .foto-pop-holder  {
+        width: 60%;
+    }
+    #third .foto_galerija .tabs .main_img .tabs-nav {
+        grid-auto-rows: 65px;
+    }
+    #third .pohvali_kolegu,
+    #third .human_res.info,
+    #third .oglasi  {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 15px;
+    }
+    #third .oglasi {
+        margin-bottom: 0px;
+    }
+    .header_bottom ul li {
+        margin-right: 10px;
+    }
+    .header_bottom ul li a {
+        font-size: 14px;
+    }
+    #four .foto_dana {
+        height: 300px;
+    }
+    #four .foto_dana,
+    #four .drustvene-mreze,
+    #four .anketa {
+        width: 100%;
+        margin-bottom: 15px;
+        margin-right: 0px;
+    }
+    #four .foto_dana .links_bottom_foto li:last-of-type {
+        border-bottom-right-radius: 10px;
+        border-bottom-left-radius: 10px;
+    }
+    #four .anketa {
+        margin-bottom: 0px;
+    }
+    .tabs-sidebar {
+        width: 100%;
+        margin-right: 0px;
+        margin-bottom: 10px;
+    }
+    .boxes-hover {
+        width: 100%;
+    }
+    .boxes-hover .item {
+        padding: 10px 0px;
+    }
+    .boxes-hover .item .item_absolute {
+        left: 60%;
+    }
+    .boxes-hover p {
+        height: auto;
+    }
+    .boxes-hover .item_absolute:after {
+        left: 15%;
+    }
+    .boxes-hover .item:nth-child(3n) .item_absolute {
+        left: 35%;
+    }
+    footer .footer_top {
+        padding: 20px 0px;
+    }
+    footer .footer_top .footer_top_content ul:nth-of-type(2) {
+        margin-top: 20px;
+    }
+    #main_thumbs.owl-carousel .owl-item img {
+        width: 100%;
+    }
+}
+@media only screen and (max-width: 768px) {
+    .kolaboracija-holder {
+        width: 100%;
+    }
+    .input_search {
+        height: 80px;
+    }
+    .search.mob,
+    .search.mob i {
+        display: block;
+    }
+    .middle_links ul li.search {
+       display: none;
+    }
+    .logo img {
+        width: 150px;
+    }
+    .user-log img {
+        width: 60px;
+    }
+    .middle_links ul li {
+        margin-bottom: 20px;
+    }
+    .middle_links ul li a {
+        font-size: 18px;
+    }
+    .middle_links {
+        position: fixed;
+        left: 0px;
+        top: 0px;
+        width: 100%;
+        height: 100vh;
+        background: #fff;
+        transform: translateX(-100%);
+        transition: .1s all ease;
+        z-index: 2;
+    }
+    .middle_links ul {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        height: 100%;
+    }
+    .middle_links.show {
+        transform: translateX(0%);
+    }
+    .header_bottom ul li:first-child ul.open_dropdown {
+        height: auto;
+        overflow: visible;
+        padding: 10px;
+    }
+    footer .footer_top .footer_top_content ul li {
+        margin: 0px 10px 20px 10px;
+    }
+    footer .footer_top .footer_top_content ul li a {
+        font-size: 14px;
+    }
+    footer .footer_top .footer_top_content p {
+        margin-top: 20px;
+        font-size: 12px;
+    }
+    .header_bottom ul li:first-child ul {
+        position: static;
+        width: 300px;
+        background: #b6ce33;
+        z-index: 2;
+        border-radius: 10px;
+        padding: 10px;
+        top: 40px;
+        left: 0px;
+        opacity: 0;
+        z-index: -1;
+        pointer-events: none;
+        transition: .3s all ease;
+        height: 0px;
+        overflow: hidden;
+        padding: 0px;
+    }
+    .header_bottom ul li:first-child ul:after {
+        display: none;
+    }
+    .header_bottom ul li:first-child ul li a {
+        font-size: 14px;
+        padding: 5px 0px;
+    }
+    .foto-pop-holder {
+        width: 80%;
+        padding: 10px 15px;
+    }
+    .okey-close {
+        width: 100%;
+        justify-content: center;
+    }
+    .top-user .txt-hold p {
+        font-size: 14px;
+    }
+    .person-pop .person-pop-holder {
+        flex-direction: column;
+    }
+    .person-txt-hold, .person-img-hold {
+        width: 100%;
+    }
+    .boxes-hover .item:nth-child(3n) .item_absolute,
+    .boxes-hover .item .item_absolute {
+        display: none;
+    }
+    #nav-icon1 {
+        display: block;
+    }
+    .user-log {
+        margin-right: 15px;
+        display: flex;
+        align-items: center;
+        flex-direction: row-reverse;
+    }
+    .header_top {
+        padding: 10px 0px;
+    }
+    .main {
+        margin: 10px 0px;
+    }
+    footer .footer_top .footer_top_content ul:nth-of-type(2) li {
+        margin-right: 10px;
+    }
+    footer .footer_top .footer_top_content ul:nth-of-type(2) li a {
+        font-size: 15px;
+    }
+}
+@media only screen and (max-width: 600px) {
+    footer .footer_top ul {
+        justify-content: center;
+    }
+    #second .human_res ul.human, 
+    #second .dogadjaji ul.dogadjaj {
+        width: 100%;
+    }
+    #big .item .news-text .short_heading p {
+        font-size: 18px;
+        line-height: 25px;
+    }
+    .sidebar_news .sve_vesti {
+        margin-top: 20px;
+    }
+    #big .item .news-text {
+        left: 15px;
+        width: 95%;
+    }
+    .tabs-sidebar .main_news,
+    .tabs-sidebar .sidebar_news {
+        width: 100%;
+    }
+    .tabs-sidebar .sidebar_news {
+        padding: 20px 10px;
+    }
+    #big .item {
+        height: 370px;
+    }
+    .boxes-hover .item:nth-child(3n) .item_absolute {
+        left: -20px;
+    }
+    .boxes-hover .item .item_absolute {
+        left: 150px;
+    }
+    footer .footer_top .footer_top_content ul:nth-of-type(2) {
+        flex-direction: column;
+        text-align: center;
+    }
+}
+@media only screen and (max-width: 480px) {
+    #modal_prijavi_ideju .ideja_form_holder,
+    #modal_pohvali_kolegu .ideja_form_holder,
+    .person-pop .person-pop-holder,
+    .foto-pop-holder {
+        width: 90%;
+        padding: 15px 5px;
+    }
+    #second .human li .human_txt h3 {
+        margin-bottom: 5px;
+        font-size: 14px;
+    }
+    #second .human li .human_txt p {
+        line-height: 14px;
+        font-size: 12px;
+    }
+    #second .human_res h1,
+    #second .dogadjaji h1 {
+        margin-bottom: 10px;
+        font-size: 18px;
+    }
+    #second .human_res,
+    #second .dogadjaji {
+        padding: 10px;
+    }
+    #second .dogadjaji ul.dogadjaj li a {
+        font-size: 12px;
+    }
+    #second .dogadjaji .pogledaj_sve {
+        font-size: 14px;
+    }
+    .input_search {
+        height: 65px;
+    }
+    #third .pohvali_kolegu h1,
+    #third .info h1,
+    #third .oglasi h1 {
+        font-size: 18px;
+        margin-bottom: 10px;
+    }
+    #third .pohvali_kolegu .pohvala li .user_ideja > h3 {
+        font-size: 16px;
+    }
+    #third .human_res.info ul.human.info li .info_img {
+        width: 15%;
+    }
+    #third .human_res.info ul.human.info li .info_text {
+        width: 85%;
+    }
+    #third .human_res.info ul.human.info li .info_text p {
+        font-size: 12px;
+    }
+    #third .human_res.info ul.human.info li .info_text h3 {
+        margin-bottom: 5px;
+        font-size: 16px;
+    }
+    #third .pohvali_kolegu .pohvala li .user_ideja .user_ideja_txt h3 {
+        font-size: 14px;
+        margin-bottom: 5px;
+    }
+    #third .pohvali_kolegu .pohvala li .user_ideja .user_ideja_txt p {
+        font-size: 12px;
+    }
+    #third .oglasi #oglasi_slide .item p {
+        margin-bottom: 10px;
+        font-size: 15px;
+    }
+    #third .oglasi #oglasi_slide .item h3 {
+        margin: 15px 0px 5px 0px;
+        font-size: 16px;
+    }
+    #third .oglasi #oglasi_slide .item span {
+        font-size: 14px;
+    }
+    #four .foto_dana .num_likes h3 {
+        font-size: 18px;
+    }
+    #four .foto_dana .links_bottom_foto li {
+        padding: 5px 0px;
+    }
+    #four .foto_dana .links_bottom_foto li a {
+        font-size: 12px;
+    }
+    #four .drustvene-mreze {
+        align-items: flex-start;
+    }
+    #four .drustvene-mreze h3 {
+        font-size: 16px;
+    }
+    #four .drustvene-mreze p {
+        font-size: 12px;
+    }
+    #four .drustvene-mreze a {
+        font-size: 12px;
+    }
+    #four .drustvene-mreze h2 {
+        font-size: 18px;
+        margin-bottom: 10px;
+    }
+    #four .anketa h1 {
+        margin-bottom: 10px;
+        font-size: 18px;
+    }
+    #four .anketa p {
+        margin-bottom: 10px;
+        line-height: 18px;
+        font-size: 14px;
+    }
+    #four .anketa ul.glasanje li {
+        margin-bottom: 10px;
+        font-size: 14px;
+    }
+    #four .anketa button.glasaj_submit {
+        margin-top: 10px;
+    }
+    .boxes-hover p {
+        font-size: 12px;
+    }
+    #second .dogadjaji ul.dogadjaj .time_head .date p {
+        font-size: 18px;
+    }
+    #second .dogadjaji ul.dogadjaj .time_head .date span {
+        font-size: 12px;
+    }
+    #second .dogadjaji ul.dogadjaj .time_head .heading {
+        font-size: 14px;
+    }
+    .tabs-sidebar .sidebar_news .item p,
+    #second .human.upload li .human_txt.upload a {
+        font-size: 12px;
+    }
+    #third .foto_galerija .tabs .main_img .tabs-nav {
+        grid-auto-rows: 45px;
+    }
+    .top-user .user-log {
+        justify-content: center;
+    }
+    .okey-close {
+        margin-top: 10px;
+    }
+    .form_ideja {
+        padding: 10px;
+    }    
+    .logo img {
+        width: 120px;
+    }
+    .header_top .account i {
+        font-size: 16px;
+    }
+    .user-log img {
+        width: 45px;
+    }
+    .header_bottom {
+        padding: 0px;
+    }
+    .header_bottom ul li {
+        padding: 5px 0px;
+    }
+    .header_bottom ul li a {
+        font-size: 20px;
+    }
+    #nav-icon1 {
+        width: 35px;
+        height: 35px;
+    }
+    #nav-icon1 span {
+        height: 3px;
+    }
+    .input_search input {
+        height: 40px;
+        width: 270px;
+    }
+    .input_search .fa-times {
+        top: 10px;
+        right: 10px;
+        font-size: 18px;
+    }
+    #big .item .news-text {
+        bottom: 10px;
+        width: 94%;
+    }
+    #big .item .news-text .short_heading p {
+        font-size: 14px;
+        margin-bottom: 5px;
+        line-height: 20px;
+    }
+    #big .item .news-text .short_heading .link_news a {
+        font-size: 14px;
+    }
+    .tabs-sidebar .sidebar_news {
+        padding: 10px;
+    }
+    #big .owl-nav .owl-next, #big .owl-nav .owl-prev {
+        width: 30px;
+        height: 30px;
+    }
+    #big .owl-nav .owl-prev, 
+    #big .owl-nav .owl-next {
+        top: 50%;
+        bottom: auto;
+    }
+    #big .owl-nav .owl-prev {
+        /* transform: translate(-100%, -50%); */
+        left: 10px;
+    }
+    #big .owl-nav .owl-next {
+        right: 10px;
+        /* transform: translate(100%, -50%); */
+    }
+    .tabs-sidebar .main_news {
+        margin-bottom: 0px;
+    }
+    #big .item {
+        height: 250px;
+    }
+    .boxes-hover .item .item_absolute,
+    .boxes-hover .item:nth-child(3n) .item_absolute {
+        width: 200px;
+        padding: 10px 5px;
+    }
+    .boxes-hover .item .item_absolute {
+        left: 90px;
+    }
+    .sidebar_news .sve_vesti a {
+        font-size: 14px;
+        margin-top: 5px;
+    }
+    .sidebar_news .sve_vesti {
+        margin: 10px 0px 6px 0px;
+    }
+    #second .prijavi_ideju,
+    #second .pohvali_kolegu {
+        width: 100%;
+        margin-right: 0px;
+    }
+    #second .foto_dana img {
+        width: auto;
+    }
+    #second .human.upload li .human_img.upload img {
+        width: 25px;
+    }
+    #third .foto_galerija {
+        padding: 5px;
+    }
+    #third .hr_servis, #third .video_galerija {
+        padding: 15px 10px;
+        width: 100% !important;
+        margin-right: 0px !important;
+        margin-bottom: 10px;
+    }
+    #third .foto_galerija .tabs .main_img {
+        padding: 0px;
+    }
+    #third .foto_galerija .tabs .tabs-stage {
+        padding: 5px;
+    }
+    #third .foto_galerija .tabs .main_img .tabs-nav {
+        grid-gap: 3px;
+    }
+    #third .foto_galerija .tabs .pogledaj_vise h1 {
+        font-size: 16px;
+    }
+    #third .foto_galerija .tabs .pogledaj_vise {
+        margin-bottom: 5px;
+    }
+    #third .hr_servis h1, #third .video_galerija h1 {
+        font-size: 20px;
+    }
+    #third .hr_servis, #third .video_galerija {
+        padding: 10px 5px;
+    }
+    #third .pohvali_kolegu #pohvali_kolegu,
+    #third .oglasi #oglas_input,
+    #second .human_res .click_open, 
+    #second .pohvali_kolegu .click_open, 
+    #four .foto_dana .click_open,
+    #four .drustvene-mreze .click_open {
+        width: 35px;
+        height: 35px;
+        top: 5px;
+        right: 5px;
+    }
+    .kolaboracija {
+        padding: 20px 0px;
+    }
+    footer .footer_top .footer_top_content h3 {
+        font-size: 20px;
+    }
+    .footer_bottom {
+        padding: 15px 0px;
+    }
+}	
