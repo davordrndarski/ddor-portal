@@ -131,7 +131,7 @@ header {
 }
 .header_top .account .user_name_holder::before {
     content: '';
-    background: url('/images/acccount-separate.png');
+    background: url('images/acccount-separate.png');
     left: -15px;
     width: 1px;
     height: 53px;
@@ -994,7 +994,7 @@ header {
 }
 #four .foto_dana .links_bottom_foto li a:after {
     content: '';
-    background-image: url(/images/arrow-right.png);
+    background-image: url(images/arrow-right.png);
     width: 6px;
     height: 10px;
     background-position: center;
@@ -1420,7 +1420,7 @@ footer .footer_top .footer_top_content p {
     font-family: 'AmsiPro-Regular';
     -webkit-appearance: none;
     -moz-appearance: none;
-    background-image: url(/images/plus.png);
+    background-image: url(images/plus.png);
     background-position: 90% 50%;
     background-repeat: no-repeat;
 }
