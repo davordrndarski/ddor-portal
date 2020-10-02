@@ -131,7 +131,7 @@ header {
 }
 .header_top .account .user_name_holder::before {
     content: '';
-    background: url('../images/acccount-separate.png');
+    background: url('/images/acccount-separate.png');
     left: -15px;
     width: 1px;
     height: 53px;
@@ -198,7 +198,7 @@ header {
     font-family: 'AmsiPro-Regular';
 }
 .middle_links ul li {
-    padding: 0px 10px;
+    padding: 10px;
 }
 .middle_links ul li a:hover {
     color: #003863;
@@ -206,6 +206,62 @@ header {
 .middle_links ul li.search a {
     color: #003863;
 }
+/* Dropdown */
+@media only screen and (min-width: 768px) {
+    .middle_links ul li.dropdown {
+        position: relative;
+    } 
+    .middle_links ul li.dropdown ul.drop_level_one {
+        position: absolute;
+        top: 40px;
+        left: 10px;
+        width: 200px;
+        background:#003963;
+        display: none;
+        z-index: -1;
+        pointer-events: none;
+    }
+    .middle_links ul li.dropdown ul.drop_level_one::before {
+        content: '';
+        width: 10px;
+        height: 10px;
+        background: #003863;
+        position: absolute;
+        top: -4px;
+        left: 15px;
+        transform: rotate(45deg);
+    }
+    .middle_links ul li.dropdown ul.drop_level_two {
+        position: absolute;
+        top: 0px;
+        right: -100%;
+        width: 200px;
+        background:#003963;
+        display: none;
+        z-index: -1;
+        pointer-events: none;
+    }
+    .middle_links ul li.dropdown ul.drop_level_one li.dropdown:hover ul.drop_level_two,
+    .middle_links ul li.dropdown:hover ul.drop_level_one {
+        display: block;
+        z-index: 3;
+        pointer-events: all;
+    }
+    .middle_links ul li.dropdown ul.drop_level_one li {
+        padding: 10px 5px;
+        border-bottom: 1px solid #a7aeb6;
+    }
+    .middle_links ul li.dropdown ul.drop_level_one li:last-child {
+        border-bottom: none;
+    }
+    .middle_links ul li.dropdown ul.drop_level_one li a {
+        color: #fff;
+        width: 100%;
+        display: block;
+        font-size: 14px;
+    }
+}
+/* End of Dropdown */
 .main {
     margin: 15px 0px;
 }
@@ -994,7 +1050,7 @@ header {
 }
 #four .foto_dana .links_bottom_foto li a:after {
     content: '';
-    background-image: url(../images/arrow-right.png);
+    background-image: url(/images/arrow-right.png);
     width: 6px;
     height: 10px;
     background-position: center;
@@ -1420,7 +1476,7 @@ footer .footer_top .footer_top_content p {
     font-family: 'AmsiPro-Regular';
     -webkit-appearance: none;
     -moz-appearance: none;
-    background-image: url(../images/plus.png);
+    background-image: url(/images/plus.png);
     background-position: 90% 50%;
     background-repeat: no-repeat;
 }

@@ -247,6 +247,19 @@
     }
 }
 @media only screen and (max-width: 768px) {
+    /*Dropdown*/
+    .middle_links ul li.dropdown ul.drop_level_one,
+    .middle_links ul li.dropdown ul.drop_level_one li.dropdown ul.drop_level_two {
+        display: none;
+        text-align: center;
+        margin-top: 20px;
+    }
+    .middle_links ul li.dropdown ul.drop_level_one li {
+        margin-bottom: 10px;
+    }
+    .middle_links ul li.dropdown ul.drop_level_one li a {
+        font-size: 14px;
+    }
     .kolaboracija-holder {
         width: 100%;
     }
@@ -706,4 +719,4 @@
     .footer_bottom {
         padding: 15px 0px;
     }
-}	
+}   
