@@ -166,11 +166,70 @@ $(document).ready(function() {
     });
   }
 
+  // Accordion
 
+  $(".set > a, .set-1 a, .set-2 a").on("click", function() {
+    if ($(this).hasClass("active")) {
+      $(this).removeClass("active");
+      $(this)
+        .siblings(".content, .content-1, .content-2")
+        .slideUp(200);
+      $(".set > a i, .set-1 > a i")
+        .removeClass("fa-minus")
+        .addClass("fa-plus");
+    } else {
+      $(".set > a i, .set-1 > a i, .set-2 a i")
+        .removeClass("fa-minus")
+        .addClass("fa-plus");
+      $(this)
+        .find("i")
+        .removeClass("fa-plus")
+        .addClass("fa-minus");
+      $(".set > a, .set-1 > a").removeClass("active");
+      $(this).addClass("active");
+      $(".content, .content-1, .content-2").slideUp(200);
+      $(this)
+        .siblings(".content, .content-1, .content-2")
+        .slideDown(200);
+    }
+  });
         
+// Tabs
+$('.tabs-nav a').on('click', function(event){
+  event.preventDefault();
+  $('.tabs-nav li').removeClass('tab-active');
+  $(this).parent().addClass('tab-active');
+  $('.tabs-stage div').hide();
+  $($(this).attr('href')).show();
+});
+// Prvi tab aktivan po defoltu
+$('.tabs-stage div').hide();
+$('.tabs-stage div:first').show();
+$('.tabs-nav li:first').addClass('tab-active');
 
 
 
+// Tabovi Listanje
+
+$('ul.tabs-listanje li').click(function(){
+  var tab_id = $(this).attr('data-tab');
+
+  $('ul.tabs-listanje li').removeClass('current');
+  $('.tab-content-listanje').removeClass('current');
+
+  $(this).addClass('current');
+  $("#"+tab_id).addClass('current');
+})
+
+$('ul.tabs-listanje-inner li').click(function(){
+  var tab_id = $(this).attr('data-tab');
+
+  $('ul.tabs-listanje-inner li').removeClass('current');
+  $('.tab-content-listanje-inner').removeClass('current');
+
+  $(this).addClass('current');
+  $("#"+tab_id).addClass('current');
+})
  
 
 
