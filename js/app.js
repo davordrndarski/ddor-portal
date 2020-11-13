@@ -129,7 +129,7 @@ $(document).ready(function() {
   $(".fancybox").fancybox();
   
 /* Mobile */
-  $('#nav-icon1').click(function(){
+	$('#nav-icon1').click(function(){
     $(this).toggleClass('open');
     $('body').toggleClass('overflow');
     $('.middle_links').toggleClass('show');
@@ -141,13 +141,13 @@ $(document).ready(function() {
     $('body').toggleClass('overflow');
   });
   
-  $('.close_pohvala').click(function(){
+	$('.close_pohvala').click(function(){
     $('#modal_pohvali_kolegu').toggleClass('open_kolega');
     $('body').toggleClass('overflow');
   });
 
   /* Search */
-  $('.search').click(function(){
+	$('.search').click(function(){
     $('.input_search').toggleClass('open_search');
   });
   $('.fa-times').click(function(){
@@ -157,14 +157,14 @@ $(document).ready(function() {
 
   /* Mobile Accordion Menu */
 
-  if (window.innerWidth < 768) {
+	if (window.innerWidth < 768) {
     $('.middle_links ul li.dropdown').click(function(){
       $(this).find('ul.drop_level_one').slideToggle();
     });
     $('.middle_links ul li.dropdown .main_link').click(function(e) {
         e.preventDefault();
     });
-  }
+	}
 
   // Accordion
 
@@ -230,20 +230,37 @@ $('ul.tabs-listanje-inner li').click(function(){
   $(this).addClass('current');
   $("#"+tab_id).addClass('current');
 })
+
+
+
+
+/* Pop Up */
+
+	$('#trigger_popup').click(function(e){
+    e.preventDefault();
+    $('#pop_up_confirmation').toggleClass('open_conf');
+    $('body').toggleClass('overflow');
+  });
  
+	$('span.close_me').click(function(){
+    $('#pop_up_confirmation').removeClass('open_conf');
+  });
 
 
-  // $('#prijavi_ideju').click(function(){
+  
+
+
+	// $('#prijavi_ideju').click(function(){
   //   $('#modal_prijavi_ideju').toggleClass('open_ideja');
   //   $('body').toggleClass('overflow');
   // });
   
-  // $('#modal_prijavi_ideju .close').click(function(){
+	// $('#modal_prijavi_ideju .close').click(function(){
   //   $('#modal_prijavi_ideju').toggleClass('open_ideja');
   //   $('body').toggleClass('overflow');
   // });
   
-  // $('.person-pop-holder .close_person').click(function(){
+	// $('.person-pop-holder .close_person').click(function(){
   //   $('.person-pop').toggleClass('open_person');
   //   $('body').toggleClass('overflow');
   // });
@@ -253,7 +270,7 @@ $('ul.tabs-listanje-inner li').click(function(){
   //   $('body').toggleClass('overflow');
   // });
   
-  // $('.okey-close').click(function(){
+	// $('.okey-close').click(function(){
   //   $('.foto-pop-up').toggleClass('open_foto');
   //   $('body').toggleClass('overflow');
   // });

@@ -131,7 +131,7 @@ header {
 }
 .header_top .account .user_name_holder::before {
     content: '';
-    background: url('images/acccount-separate.png');
+    background: url('/images/acccount-separate.png');
     left: -15px;
     width: 1px;
     height: 53px;
@@ -1069,7 +1069,7 @@ header {
 }
 #four .foto_dana .links_bottom_foto li a:after {
     content: '';
-    background-image: url(images/arrow-right.png);
+    background-image: url(/images/arrow-right.png);
     width: 6px;
     height: 10px;
     background-position: center;
@@ -1393,7 +1393,7 @@ footer .footer_top .footer_top_content p {
 }
 .karijera .aplikacija_karijera span.date:before {
     content: '';
-    background-image: url(images/clock.png);
+    background-image: url(/images/clock.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
@@ -1596,6 +1596,68 @@ footer .footer_top .footer_top_content p {
     display: inline-block;
     margin: 10px 0px;
 }
+.popusti_select select {
+    border: 1px solid #dcdde2;
+    min-width: 200px;
+    height: 40px;
+    border-radius: 0px;
+    background: #fff;
+    padding-left: 10px;
+    outline: none;
+    position: relative;
+    color: #1e2429;
+    font-family: 'AmsiPro-Regular';
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background-image: url(/images/plus.png);
+    background-position: 90% 50%;
+    background-repeat: no-repeat;
+    margin-right: 10px;
+}
+.popusti_select h3 {
+    margin-right: 30px;
+}
+
+/* Interni oglasi */
+
+.interni_oglasi {
+    border-bottom: 1px solid #566879;
+    margin-top: 25px !important;
+    padding-bottom: 25px !important;
+}
+.interni_oglasi h3 a {
+    font-family: 'AmsiPro-Bold';
+    font-size: 28px;
+    color: #003863;
+    display: block;
+    margin-bottom: 20px;
+}
+.interni_oglasi span.garant {
+    font-family: 'AmsiPro-Regular';
+    font-size: 22px;
+    color: #003863;
+}
+.interni_oglasi span.date {
+    color: #1a1a1a !important;
+    margin-right: 10px;
+}
+.interni_oglasi span.date:first-of-type:before {
+    content: '';
+    background-image: url(/images/map_pin_oglasi.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 20px;
+    height: 20px;
+    font-size: 16px;
+    position: absolute;
+    left: 0px;
+    top: 50%;
+    transform: translate(0,-50%);
+    color: #2f3137;
+}
+
+
 
 /* Menadzment */
 
@@ -2046,7 +2108,47 @@ footer .footer_top .footer_top_content p {
 
 
 
+/* Pop Up */
 
+#pop_up_confirmation {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: -1;
+    background: rgba(0, 56, 99, .6);
+    opacity: 0;
+    pointer-events: none;
+    width: 100%;
+    height: 100%;
+}
+#pop_up_confirmation.open_conf {
+    z-index: 999;
+    opacity: 1;
+    pointer-events: all;
+}
+#pop_up_confirmation .confirmation {
+    background: #fff;
+    height: 30%;
+    width: 20%;
+    justify-content: space-evenly;
+    border-radius: 10px;
+    text-align: center;
+}
+#pop_up_confirmation .confirmation h3 {
+    color: #003863;
+    font-family: 'AmsiPro-Bold';
+    font-size: 34px;
+}
+#pop_up_confirmation .confirmation p {
+    color: #566879;
+    font-family: 'AmsiPro-Regular';
+    font-size: 16px;
+}
+#pop_up_confirmation .confirmation span.close_me {
+    color: #59c3c9;
+    font-family: 'AmsiPro-Regular';
+    font-size: 14px;
+}
 
 
 
@@ -2303,7 +2405,7 @@ footer .footer_top .footer_top_content p {
     font-family: 'AmsiPro-Regular';
     -webkit-appearance: none;
     -moz-appearance: none;
-    background-image: url(images/plus.png);
+    background-image: url(/images/plus.png);
     background-position: 90% 50%;
     background-repeat: no-repeat;
 }

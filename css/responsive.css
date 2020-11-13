@@ -6,6 +6,52 @@
         left: 85%;
     }
 } 
+@media only screen and (max-width: 1500px) {
+    .logo img {
+        width: 200px;
+    }
+    .middle_links ul li {
+        padding: 0px 5px;
+    }
+    .middle_links ul li a {
+        font-size: 14px;
+    }
+    .header_top .account .user_name_holder {
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+    .user-log img {
+        width: 60px;
+    }
+    .input_search {
+        height: 120px;
+    }
+    .tabs-sidebar .sidebar_news .item p {
+        font-size: 12px;
+    }
+    .tabs-sidebar {
+        width: 74.5%;
+    }
+    .boxes-hover {
+        width: 25%;
+        padding: 10px;
+        grid-gap: 5px;
+    }
+    .tabs-sidebar .sidebar_news {
+        padding: 10px;
+    }
+    .grid_container_3 {
+        grid-template-columns: 1fr 2fr 1fr;
+        grid-gap: 10px;
+    }
+    .grid_container_2 {
+        grid-template-columns: 2fr 1fr;
+        grid-gap: 10px;
+    }
+    .main_pages .tabs .tabs-stage .grid-listanje {
+        grid-gap: 20px;
+    }
+}
 @media only screen and (max-width: 1400px) {
     .single_popust_slika .popust_box {
         width: auto;
@@ -505,6 +551,26 @@
     }
 }
 @media only screen and (max-width: 600px) {
+    #pop_up_confirmation .confirmation {
+        width: 80%;
+    }
+    .interni_oglasi span.garant {
+        font-size: 18px;
+    }
+    .popusti_select h3 {
+        margin-bottom: 20px;
+    }
+    .popusti_select select {
+        min-width: initial;
+        width: 100%;
+        background-repeat: no-repeat;
+        margin-bottom: 10px;
+        margin-right: 0px;
+        background-position: 95% 50%;
+    }
+    .popusti_select select:last-child {
+        margin-bottom: 0px;
+    }
     .main_pages.popust_single .left .faq-accordion h3 {
         font-size: 20px;
         line-height: 24px;
@@ -1055,4 +1121,4 @@
     .footer_bottom {
         padding: 15px 0px;
     }
-}   
+}	
