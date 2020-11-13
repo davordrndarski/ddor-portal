@@ -131,7 +131,7 @@ header {
 }
 .header_top .account .user_name_holder::before {
     content: '';
-    background: url('images/acccount-separate.png');
+    background: url('../images/acccount-separate.png');
     left: -15px;
     width: 1px;
     height: 53px;
@@ -1069,7 +1069,7 @@ header {
 }
 #four .foto_dana .links_bottom_foto li a:after {
     content: '';
-    background-image: url('images/arrow-right.png');
+    background-image: url('../images/arrow-right.png');
     width: 6px;
     height: 10px;
     background-position: center;
@@ -1393,7 +1393,7 @@ footer .footer_top .footer_top_content p {
 }
 .karijera .aplikacija_karijera span.date:before {
     content: '';
-    background-image: url('images/clock.png');
+    background-image: url('../images/clock.png');
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
@@ -1609,7 +1609,7 @@ footer .footer_top .footer_top_content p {
     font-family: 'AmsiPro-Regular';
     -webkit-appearance: none;
     -moz-appearance: none;
-    background-image: url('images/plus.png');
+    background-image: url('../images/plus.png');
     background-position: 90% 50%;
     background-repeat: no-repeat;
     margin-right: 10px;
@@ -1643,7 +1643,7 @@ footer .footer_top .footer_top_content p {
 }
 .interni_oglasi span.date:first-of-type:before {
     content: '';
-    background-image: url('images/map_pin_oglasi.png');
+    background-image: url('../images/map_pin_oglasi.png');
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
@@ -2405,7 +2405,7 @@ footer .footer_top .footer_top_content p {
     font-family: 'AmsiPro-Regular';
     -webkit-appearance: none;
     -moz-appearance: none;
-    background-image: url('images/plus.png');
+    background-image: url('../images/plus.png');
     background-position: 90% 50%;
     background-repeat: no-repeat;
 }
