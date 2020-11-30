@@ -118,6 +118,10 @@
     }
 } 
 @media only screen and (max-width: 1200px) {
+    .accordion_middle .grid_2 {
+        grid-template-columns: 1fr;
+        grid-gap: 40px 0px;
+    }
     .main_pages.tabovi__listanje.mali_oglasi .faq-accordion {
         padding: 10px;
     }
